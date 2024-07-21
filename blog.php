@@ -1,13 +1,55 @@
 <?php include('head.php'); ?>
 <?php include('navbar.php'); ?>
 <style>
+
 .dodolu
 {
 	margin-top: 130px;
 }
+
+
+.postcontainer {
+border: 10px double rgba(0, 0, 0, 0.2);
+border-color: #b1a6b1; 
+border-width: 10px; 
+padding: 5px; 
+text-align: left; 
+position: center; 
+margin: auto; 
+padding-left: 10px; 
+padding-right: 10px; 
+padding-bottom: 10px; 
+padding-top: 1px; 
+margin-top: -20px; 
+margin-bottom: 20px;
+width: auto;
+color: #6d828f;
+}
+
+
+.posttest {
+border: 10px double rgba(0, 0, 0, 0.2);
+border-color: #b1a6b1; 
+border-width: 10px; 
+padding: 5px; 
+text-align: center; 
+position: center; 
+margin: auto; 
+padding-left: 1px; 
+padding-right: 1px; 
+padding-bottom: 1px; 
+padding-top: 1px; 
+margin-bottom: 20px; 
+width: auto;
+font-style: italic;
+font-size: 2.0rem;
+color: #3c5463;
+}
+
+
 </style>
 <div class="dodolu">
-
+<div class="cont">
 <?php
 if(isset($_GET["post"])){
 	$num = $_GET["post"];

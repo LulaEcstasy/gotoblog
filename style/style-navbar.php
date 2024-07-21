@@ -1,5 +1,11 @@
-<?php include('head.php'); ?>
-<style>
+<?php
+/*** set the content type header ***/
+/*** Without this header, it wont work ***/
+header("Content-type: text/css");
+
+?>
+
+
 * {box-sizing: border-box;}
 
 .bg-img {
@@ -49,14 +55,3 @@ background: url('../img/neeeww.jpg');
   background-color: #ddd;
   color: black;
 }
-</style>
-<header>
-<div class="container">
-<div class="bg-img"></div>
-<div class="topnav">
-  <a href="../index.php">Dziennik</a>
-  <a href="../info.php">Info</a>
- <a href="../cos.php">Coś</a>
-</div></div>
-</header>
-<?php include('footer.php'); ?>
