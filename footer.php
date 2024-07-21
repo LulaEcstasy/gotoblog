@@ -1,5 +1,5 @@
-<footer style="position: fixed; bottom: 0; width: 100%; font-size: 17px; color: #E9A8EA;">
- <small><br>Version 0.1</small>
+<footer style="position: fixed; padding-left:5px; bottom: 0; width: 100%; font-size: 17px; color: white;">
+ <small><br>Version 0.2a</small>
 </footer>
 
 </html>
